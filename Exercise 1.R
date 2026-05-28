@@ -7,4 +7,4 @@ mean_mass_by <- function(data, group_var) {
     summarise(mean_mass = mean(body_mass_g, na.rm = TRUE))
 }
 
-mean_mass_by(penguins, )
+mean_mass_by(penguins, species)
